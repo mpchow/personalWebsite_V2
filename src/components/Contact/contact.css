@@ -2,4 +2,16 @@
    position: relative;
    top: 50vh;
    left: 10vh;
+   width: fit-content;
+}
+
+a {
+   color: black;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+a:visited{
+   text-decoration: none;
 }
