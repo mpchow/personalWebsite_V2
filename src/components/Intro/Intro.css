@@ -8,13 +8,14 @@
    position: relative;
    top: 10vh;
    left: 10vh;
+   width: fit-content;
 }
 
-h1 {
+.intro-text h1 {
    font-size: 5vw;
 }
 
-h2 {
+.intro-text h2 {
    font-size: 2.5vw;
    color: #8b97c9;
 }
