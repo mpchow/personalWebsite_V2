@@ -13,6 +13,9 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <div className="App-footer">
+        <p>Designed & Built with <span role="img" aria-label="heart">❤️</span> by Matthew Chow | 2020</p>
+      </div>
     </div>
   );
 }
