@@ -14,8 +14,8 @@ class Intro extends React.Component {
          <div className="intro">
             <Toggle />
             <div className="intro-text">
-            <h1>Hi, I'm <br/> Matthew Chow 👋🏻</h1>
-            <h2>Software Developer Intern @ SAP <br/> Computer Engineering Student @ UBC</h2>
+            <h1>Hi, I'm <br/> Matthew Chow. <span role="img" aria-label="hand">👋🏻</span></h1>
+            <h2>Software Engineer with a focus on Backend Development. <br /> Constantly pursuing impactful work.</h2>
 
             </div>
             <Contact />
