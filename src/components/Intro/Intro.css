@@ -1,6 +1,5 @@
 .intro {
    height: 100vh;
-   width: 100vw;
    text-align: left;
 }
 
@@ -13,9 +12,11 @@
 
 .intro-text h1 {
    font-size: 5vw;
+   width: fit-content;
 }
 
 .intro-text h2 {
    font-size: 2.5vw;
-   color: #8b97c9;
+   color: #427BBF;
+   width: fit-content;
 }
