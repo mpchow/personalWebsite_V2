@@ -4,16 +4,12 @@ import './about.css';
 import memoji from '../../images/memoji.png';
 
 class About extends React.Component {
-   constructor(props) {
-      super(props);
-   }
-
    render() {
       return (
          <div className="about">
             <div className="about-box">
                <div className="about-img">
-                  <img src={memoji} />
+                  <img src={memoji} alt="A picture of me is supposed to be here..."/>
                </div>
                <div className="about-description">
                   <h1>About Me</h1>
