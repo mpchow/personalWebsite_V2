@@ -2,13 +2,16 @@ import React from 'react';
 import './projects.css';
 
 class Projects extends React.Component {
-   constructor(props) {
-      super(props);
-   }
+   // constructor(props) {
+   //    super(props);
+   // }
 
    render() {
       return (
-         <div>
+         <div className="projects">
+            <div className="projects-box">
+               
+            </div>
          </div>
       );
    }
