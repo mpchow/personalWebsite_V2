@@ -15,12 +15,12 @@
    font-size: 1.1em;
    line-height: 3vh;
    height: 3vh;
-   width: 8vw;
+   width: 6.5vw;
    border-radius: 1vw;
    padding: 0.25em;
    box-shadow:  9px 9px 18px #d9d9d9, 
    -9px -9px 18px #ffffff;
-   margin-bottom: 3vh;
+   margin-bottom: 2.5vh;
 }
 
 .experience-titles :hover{
@@ -30,7 +30,7 @@
 }
 
 .experience-titles {
-   top: 40vh;
+   top: 41vh;
    position: relative;
 }
 
