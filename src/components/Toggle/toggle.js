@@ -2,13 +2,6 @@ import React from 'react';
 import './toggle.css';
 
 class Toggle extends React.Component {
-   counter = 0;
-
-
-   constructor(props) {
-      super(props);
-   }
-
    render() {
       return (
          <div className="toggle">
