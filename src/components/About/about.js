@@ -9,7 +9,7 @@ class About extends React.Component {
          <div className="about">
             <div className="about-box">
                <div className="about-img">
-                  <img src={memoji} alt="A picture of me is supposed to be here..."/>
+                  <img src={memoji} alt=""/>
                </div>
                <div className="about-description">
                   <h1>About Me</h1>
