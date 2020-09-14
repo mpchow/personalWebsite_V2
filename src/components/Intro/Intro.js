@@ -5,10 +5,6 @@ import Toggle from '../Toggle/toggle';
 import Contact from '../Contact/contact';
 
 class Intro extends React.Component {
-   constructor(props) {
-      super(props);
-   }
-
    render() {
       return (
          <div className="intro">
