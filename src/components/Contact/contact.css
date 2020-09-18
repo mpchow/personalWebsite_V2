@@ -15,3 +15,7 @@
 .contact a:visited{
    text-decoration: none;
 }
+
+.contact a:hover {
+   color: #696969;
+}
