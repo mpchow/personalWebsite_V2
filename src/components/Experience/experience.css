@@ -9,7 +9,7 @@
 }
 
 .experience-box {
-   width: 55vw;
+   width: 60vw;
    top: 10vh;
    margin: 0 auto;
    position: relative;
@@ -18,9 +18,14 @@
 .experience-company {
    font-size: 1.5vw;
    height: 5vh;
+   width: 10vw;
+}
+
+.experience-selected {
+   color: red;
+   font-size: 1.5vw;
+   height: 5vh;
    width: 10vw; 
-   padding: 0.25em;
-   line-height: 5vh;
 }
 
 .experience-titles {
@@ -37,10 +42,10 @@
 .experience-companies {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
    background-color: white;
    border-radius: 20px; 
-   padding-left: 1.5vw;
+   padding: 1.5vw  1.5vw 0vw 1.5vw;
+   height: fit-content;
 }
 
 .experience-titles h1 {

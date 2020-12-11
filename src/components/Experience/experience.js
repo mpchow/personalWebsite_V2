@@ -19,19 +19,19 @@ class Experience extends React.Component {
                   <div className="experience-titles">
                         <h1>Experience</h1>
                         <div className="experience-companies">
-                           <div className="experience-company" onClick={() => {
+                           <div className={this.state.experience === "SAP" ? "experience-selected" : "experience-company"} onClick={() => {
                               this.selectExperience("SAP");
                            }}>
                               SAP
                            </div>
 
-                           <div className="experience-company" onClick={() => {
+                           <div className={this.state.experience === "Perk Labs" ? "experience-selected" : "experience-company"} onClick={() => {
                               this.selectExperience("Perk Labs");
                            }}>
                               Perk Labs
                            </div>
 
-                           <div className="experience-company" onClick={() => {
+                           <div className={this.state.experience === "UBC Solar" ? "experience-selected" : "experience-company"} onClick={() => {
                               this.selectExperience("UBC Solar");
                            }}>
                               UBC Solar
@@ -40,7 +40,7 @@ class Experience extends React.Component {
                      </div>
                      <div className="experience-text">
                         {this.state.experience === "SAP" && <div>
-                           <h1>Software Developer Intern</h1>
+                           <h1>Software Developer Intern @ SAP</h1>
                            <h2>September 2020  -  April 2021</h2>
                            <p>
                               » Architecting an automated Python artifact pipeline to migrate artifacts to AWS and Alicloud to enable developer workflows for a multimillion dollar project <br/> <br/>
@@ -51,7 +51,7 @@ class Experience extends React.Component {
                         </div> }
                         
                         {this.state.experience === "Perk Labs" && <div>
-                           <h1>QA Engineer Intern</h1>
+                           <h1>QA Engineer Intern @ Perk Labs</h1>
                            <h2>July 2020  -  August 2020</h2>
                            <p>
                            » Reduced the development team’s workload by developing UX features with React Native <br/> <br/>
@@ -61,7 +61,7 @@ class Experience extends React.Component {
                         </div>}
 
                         {this.state.experience === "UBC Solar" && <div> 
-                           <h1>Software Developer</h1>
+                           <h1>Software Developer @ UBC Solar</h1>
                            <h2>September 2019  -  April 2020</h2>
                            <p>
                            » Designed a web app with HTML, CSS, and JavaScript to deliver telemetry data from a solar car for strategical analysis during competition <br/> <br/>
