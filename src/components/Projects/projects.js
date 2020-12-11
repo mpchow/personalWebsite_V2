@@ -9,8 +9,7 @@ import CurrenSee from '../../images/CurrenSee.png';
 class Projects extends React.Component {
    constructor(props) {
       super(props);
-      // this.state = {projectsList: [{title: "CurrenSee", description: "", link: ""}, {title: "FOEX", description: "", link: ""}, {title: "", description: "", link: ""}, {title: "", description: "", link: ""}]};
-      this.state = {projectsList: [{title: "CurrenSee", description: `» Visualized past currency data to predict future trends by dynamically updating trend lines against a user inputted base currency with React and Chart.js ${<br/>} » Computed conversion rates with Exchange rates API; hosted on Netlify`, image: CurrenSee, link: "", github: ""}, {title: "FOEX", description: "", image: "", link: ""}]};
+      this.state = {projectsList: [{title: "CurrenSee", description: "» Visualized past currency data to predict future trends by dynamically updating trend lines against a user inputted base currency with React and Chart.js", image: CurrenSee, link: "", github: ""}, {title: "FOEX", description: "", image: "", link: ""}]};
    }
 
    render() {
