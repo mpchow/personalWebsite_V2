@@ -3,6 +3,10 @@
 
 }
 
+.App p{
+   line-height: 3vh;
+}
+
 .App-footer {
    text-align: center;
    height: 5vh;

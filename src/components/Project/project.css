@@ -7,6 +7,7 @@
 .project-box {
    height: 70vh;
    margin-top: -5vw;
+   color: white;
 }
 
 .project-description {
@@ -24,10 +25,11 @@
 
 .project-image {
    height: fit-content;
-   border-radius: 10px;
+   border-radius: 20px;
 }
 
 .project-box img {
    width: 50vw;
-   border-radius: 10px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 18px rgba(0,0,0,0.4);
 }
