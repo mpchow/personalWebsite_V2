@@ -10,22 +10,29 @@
    position: relative;
    top: 10vh;
    display: flex;
-   background: rgba(255,255,255,0.4);
    backdrop-filter: blur(10px);
    border-radius: 10px;
-   border: 1px solid rgba(255,255,255,0.2);
+}
+
+.about-content {
+   background: rgba(255,255,255,0.4);
+   height: fit-content;
+   border-radius: 20px;
 }
 
 .about-description {
    width: inherit;
    padding: 1.5vw;
    background-color: white;
-   border-radius: 10px;
+   border-radius: 20px;
 }
 
 .about h1 {
    font-size: 3vw;  
    margin-bottom: 2vh;
+   margin-left: 1.5vw;
+   margin-top: 1.5vw;
+   color: white;
 }
 
 .about p {
