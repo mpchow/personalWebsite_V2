@@ -1,5 +1,5 @@
 .experience {
-   height: 100vh;
+   height: 75vh;
    width: 100vw;
    text-align: left;
 }
@@ -14,23 +14,19 @@
 .experience-title {
    font-size: 1.1em;
    line-height: 3vh;
-   height: 3vh;
-   width: 6.5vw;
-   border-radius: 1vw;
+   height: 5vh;
+   width: 6.5vw; 
    padding: 0.25em;
-   box-shadow:  9px 9px 18px #d9d9d9, 
-   -9px -9px 18px #ffffff;
-   margin-bottom: 2.5vh;
+   line-height: 5vh;
 }
 
 .experience-titles :hover{
-   background-color: #b3d0ff;
-   color: white;  
+   color: #696969;  
    cursor: pointer;
 }
 
 .experience-titles {
-   top: 43vh;
+   top: 32vh;
    position: relative;
 }
 
@@ -40,7 +36,7 @@
 }
 
 .experience-description {
-   top: 30vh;
+   top: 20vh;
    position: relative;
    padding: 1.5vw;
 }
@@ -53,6 +49,6 @@
    box-shadow:  9px 9px 18px #d9d9d9, 
    -9px -9px 18px #ffffff;
    border-radius: 1vw;
-   padding: 1.5vw
+   padding: 1.5vw;
 }
 

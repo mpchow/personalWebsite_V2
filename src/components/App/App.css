@@ -1,4 +1,13 @@
+.App {
+   /* background-color: #424874; */
+
+}
+
 .App-footer {
    text-align: center;
    height: 5vh;
+}
+
+.App-footer p {
+   color: white;
 }

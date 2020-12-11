@@ -6,7 +6,7 @@
 }
 
 .contact a {
-   color: black;
+   color: white;
    border: none;
    cursor: pointer;
    text-decoration: none;
@@ -17,5 +17,5 @@
 }
 
 .contact a:hover {
-   color: #696969;
+   color: cyan;
 }

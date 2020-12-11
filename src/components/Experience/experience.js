@@ -18,13 +18,13 @@ class Experience extends React.Component {
                   <div className="experience-titles">
                      <div className="experience-title" onClick={() => {
                         this.selectExperience("SAP");
-                     }} >
+                     }} style={{borderBottom: "1px solid black"}}>
                         SAP
                      </div>
 
                      <div className="experience-title" onClick={() => {
                         this.selectExperience("Perk Labs");
-                     }}>
+                     }} style={{borderBottom: "1px solid black"}}>
                         Perk Labs
                      </div>
 

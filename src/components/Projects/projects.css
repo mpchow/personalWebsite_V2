@@ -1,6 +1,6 @@
 .projects {
    width: 100vw;
-   height: 100vh;
+   height: 250vh;
    text-align: left;
 }
 
@@ -9,9 +9,11 @@
    width: 40vw;
    margin: 0 auto;
    position: relative;
+   height: 10vh;
 }
 
 .projects-title {
    font-size: 3vw;  
-   margin-bottom: 2vh;
+   right: 10vw;
+   position: relative;
 }
