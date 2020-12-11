@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 
-import Toggle from '../Toggle/toggle';
+// import Toggle from '../Toggle/toggle';
 import Contact from '../Contact/contact';
 
 class Intro extends React.Component {
