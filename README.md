@@ -1,5 +1,7 @@
 # Come back soon to see the live version!
 
+You can see current progress [here](https://focused-neumann-807560.netlify.app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
