@@ -13,11 +13,12 @@
 .intro-text h1 {
    font-size: 5vw;
    width: fit-content;
-   color: #f4eeff;
+   color: white;
 }
 
 .intro-text h2 {
    font-size: 2.5vw;
-   color: #dcd6f7;
+   color: #f5f0ff;
+   /* color: #dcd6f7; */
    width: fit-content;
 }

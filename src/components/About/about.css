@@ -10,7 +10,6 @@
    position: relative;
    top: 10vh;
    display: flex;
-   backdrop-filter: blur(10px);
    border-radius: 10px;
 }
 
@@ -23,7 +22,8 @@
 .about-description {
    width: inherit;
    padding: 1.5vw;
-   background-color: white;
+   background: rgba(255,255,255,0.4);
+   backdrop-filter: blur(10px);
    border-radius: 20px;
 }
 
@@ -32,7 +32,7 @@
    margin-bottom: 2vh;
    margin-left: 1.5vw;
    margin-top: 1.5vw;
-   color: white;
+   color: rgb(140, 135, 187);
 }
 
 .about p {
