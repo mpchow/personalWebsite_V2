@@ -14,34 +14,70 @@
 }
 
 .about-content {
-   background: rgba(255,255,255,0.4);
+   /* background: rgba(255,255,255,0.4); */
    height: fit-content;
    border-radius: 20px;
 }
 
 .about-description {
    width: inherit;
-   padding: 1.5vw;
-   background: rgba(255,255,255,0.4);
+   padding-left: 1.5vw;
    backdrop-filter: blur(10px);
    border-radius: 20px;
+   color: white;
 }
 
 .about h1 {
    font-size: 3vw;  
-   margin-bottom: 2vh;
-   margin-left: 1.5vw;
-   margin-top: 1.5vw;
    color: rgb(140, 135, 187);
+}
+
+.about-header {
+   margin-bottom: 2vw;
+   background: rgba(255,255,255,0.4);
+   display: flex;
+   justify-content: space-between;
+   width: fit-content;
+   padding: 1.5vw;
+   border-radius: 40px;
+}
+
+.about-header h1 {
+   margin-right: 2vw;
+}
+
+.about-category {
+   margin: auto;
+   display: flex;
+   align-items: center;
+   background: rgba(255,255,255,0.4);
+   border-radius: 20px;
 }
 
 .about p {
    font-size: 1.25vw;
 }
 
+.about-category p:hover {
+   cursor: pointer;
+}
+
+.about-category p {
+   padding: 10px;
+}
+
+.about-category-selected {
+   background-color: white;
+   font-size: 1.25vw;
+   padding: 10px;
+   border-radius: 20px;
+}
+
 .about-skills {
+   margin-left: 1.5vw;
    display: flex;
    line-height: 3.5vh;
+   color: white;
 }
 
 .about-skills p {
