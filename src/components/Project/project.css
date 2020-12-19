@@ -1,35 +1,80 @@
-.project-box h1 {
+#project-title {
    font-size: 1.5em;
-   padding-bottom: 1vw;
 } 
+
+.project-header {
+   display: flex;
+   justify-content:space-between;
+   align-items:center;
+   margin-bottom: 1vw;
+}
+
+.project-links {
+   background-color: white;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.project-links a {
+   color: black;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.project-links a:visited {
+   text-decoration: none;
+}
+
+.project-links a:hover {
+   color: #696969;
+}
 
 
 .project-box {
-   height: 70vh;
-   margin-top: -5vw;
-   color: white;
+   /* margin-top: -5vw; */
+   margin-bottom: 5vw;
+   width: fit-content;
+   display: flex;
+   align-items: center;
 }
 
-.project-description {
-   border-radius: 1vw;
+.project-description-portrait {
+   border-radius: 20px;
    padding: 1.5vw;
    height: fit-content;
    position: relative;
-   top: 45vh;
-   right: 20vh;
-   width: fit-content;
+   /* top: 45vh; */
+   /* right: 20vh; */
    z-index: 1;
    background: rgba(255,255,255,0.4);
    backdrop-filter: blur(10px);
+   transform: translateX(-100px) translateY(100px);
+   min-width: 40vw;
 }
 
-.project-image {
-   height: fit-content;
+.project-description-landscape {
    border-radius: 20px;
+   padding: 1.5vw;
+   height: fit-content;
+   position: relative;
+   z-index: 1;
+   background: rgba(255,255,255,0.4);
+   backdrop-filter: blur(10px);
+   transform: translateX(200px) translateY(100px);
+   min-width: 40vw;
 }
 
-.project-box img {
+.project-image-landscape {
    width: 50vw;
    border-radius: 20px;
-   box-shadow: 5px 5px 18px rgba(0,0,0,0.4);
+   transform: translateX(-200px);
+   /* box-shadow: 5px 5px 18px rgba(0,0,0,0.4); */
+}
+
+.project-image-portrait {
+   width: 20vw;
+   border-radius: 20px;
+   transform: translateX(100px);
+   /* box-shadow: 5px 5px 18px rgba(0,0,0,0.4); */
 }
