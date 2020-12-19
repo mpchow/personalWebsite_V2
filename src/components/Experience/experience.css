@@ -1,29 +1,25 @@
 .experience {
-   height: 75vh;
+   height: 90vh;
    width: 100vw;
    text-align: left;
 }
 
-.experience-content {
-   display: flex;
-}
 
 .experience-box {
-   width: 60vw;
    top: 10vh;
    margin: 0 auto;
    position: relative;
 }
 
 .experience-company {
-   font-size: 1.5vw;
+   font-size: 1.25vw;
    height: fit-content;
    width: fit-content;
-   padding: 10px;
+   padding: 10px
 }
 
 .experience-selected {
-   font-size: 1.5vw;
+   font-size: 1.25vw;
    height: fit-content;
    width: fit-content;
    background-color: white;
@@ -33,35 +29,44 @@
 
 .experience-titles {
    background: rgba(255,255,255,0.4);
-   border-radius: 20px;
+   border-radius: 40px;
    height: fit-content;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1.5vw;
+   margin-bottom: 2vw;
+   width: fit-content;
+}
+
+.experience-titles h1 {
+   margin-right: 2vw;
+}
+
+.experience-content {
+   width: 50vw;
+   margin: 0 auto;
 }
 
 .experience-companies :hover{
    cursor: pointer;
-   background-color: white;
-   border-radius: 20px;
-
+   /* background-color: white; */
+   /* border-radius: 20px; */
 }
 
 .experience-companies {
-   height: 20vh;
    display: flex;
-   flex-direction: column;
    justify-content: space-around;
+   align-items: center;
    background: rgba(255,255,255,0.4);
    backdrop-filter: blur(10px);
    border-radius: 20px; 
-   padding: 1.5vw  1.5vw 1.5vw 1.5vw;
+   /* padding: 1.5vw  1.5vw 1.5vw 1.5vw; */
 }
 
 .experience-titles h1 {
    color: rgb(140, 135, 187);
-   font-size: 3vw;  
-   margin-bottom: 2vh;
-   margin-top: 1.5vw;
-   margin-right: 1.5vw;
-   margin-left: 1.5vw;
+   font-size: 3vw; 
 }
 
 .experience-text {
