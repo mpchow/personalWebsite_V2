@@ -1,0 +1,35 @@
+.archivedProject {
+   background: rgba(255,255,255,0.4);
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
+   border-radius: 30px;
+   height: 18vw;
+   width: 18vw;
+   margin: 1vw;
+   padding: 1.5vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.archivedProject-links {
+   margin-top: 1.5vw;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   background-color: white;
+   width: fit-content;
+   border-radius: 10px;
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
+}
+
+.archivedProject-links a {
+   color: black;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.archivedProject-links a:hover {
+   color: #696969;
+
+}

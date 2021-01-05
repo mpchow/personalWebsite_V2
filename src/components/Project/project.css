@@ -12,7 +12,10 @@
 .project-links {
    background-color: white;
    padding: 10px;
-   border-radius: 20px;
+   border-radius: 10px;
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
+   display: flex;
+   align-items: center;
 }
 
 .project-links a {
@@ -32,7 +35,7 @@
 
 
 .project-box {
-   /* margin-top: -5vw; */
+   /* margin-top: 5vw; */
    margin-bottom: 5vw;
    width: fit-content;
    display: flex;
@@ -40,7 +43,7 @@
 }
 
 .project-description-portrait {
-   border-radius: 20px;
+   border-radius: 30px;
    padding: 1.5vw;
    height: fit-content;
    position: relative;
@@ -48,18 +51,20 @@
    /* right: 20vh; */
    z-index: 1;
    background: rgba(255,255,255,0.4);
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
    backdrop-filter: blur(10px);
    transform: translateX(-100px) translateY(100px);
    min-width: 40vw;
 }
 
 .project-description-landscape {
-   border-radius: 20px;
+   border-radius: 30px;
    padding: 1.5vw;
    height: fit-content;
    position: relative;
    z-index: 1;
    background: rgba(255,255,255,0.4);
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
    backdrop-filter: blur(10px);
    transform: translateX(200px) translateY(100px);
    min-width: 40vw;
@@ -67,14 +72,14 @@
 
 .project-image-landscape {
    width: 50vw;
-   border-radius: 20px;
+   border-radius: 10px;
    transform: translateX(-200px);
-   /* box-shadow: 5px 5px 18px rgba(0,0,0,0.4); */
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
 }
 
 .project-image-portrait {
    width: 20vw;
-   border-radius: 20px;
+   border-radius: 10px;
    transform: translateX(100px);
-   /* box-shadow: 5px 5px 18px rgba(0,0,0,0.4); */
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
 }

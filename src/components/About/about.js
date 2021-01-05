@@ -2,6 +2,13 @@ import React from 'react';
 import './about.css';
 
 import memoji from '../../images/memoji.png';
+import Python from '../../images/PythonLogo.png';
+import JS from '../../images/JSLogo.png';
+import Java from  '../../images/JavaLogo.png';
+import HTML from '../../images/HTMLLogo.png';
+import CSS from '../../images/CSSLogo.png';
+import Node from '../../images/NodeLogo.png';
+import RJS from '../../images/ReactLogo.png';
 
 class About extends React.Component {
    constructor(props) {
@@ -40,17 +47,13 @@ class About extends React.Component {
 
                {this.state.aboutSelect === "Skills" && 
                   <div className="about-skills">
-                     <p>
-                        » Go <br/>
-                        » React <br/> 
-                        » JavaScript <br/>
-                     </p>
-                     <p>
-                        » Java <br/> 
-                        » C++ <br/>
-                        » HTML/CSS <br/>
-                     </p>
-
+                     <img src={JS} alt=""></img>
+                     <img src={RJS} alt=""></img>
+                     <img src={Node} alt=""></img>
+                     <img src={Python} alt=""></img>
+                     <img src={Java} alt=""></img>
+                     <img src={HTML} alt=""></img>
+                     <img src={CSS} alt=""></img>
                   </div>
                }
                </div>
